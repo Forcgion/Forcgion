@@ -8,13 +8,23 @@
     <title>About Forcgion</title>
   </head>
   <body class="h-screen bg-[url('img/apex.png')] bg-cover bg-fixed bg-center bg-no-repeat">
-    <header class="flex flex-row sticky top-0 h-[60px] justify-between items-center ml-[8vh] mr-[8vh] mb-[10vh]">
-      <a href="" class="text-[26px] bg-gradient-to-r from-[#000000] to-[#ba0f0f] bg-clip-text text-transparent font-semibold">Forcgion</a>
-      <ul class="flex flex-row gap-[3vh] list-none text-[#f9fafb] items-center bg-gradient-to-r from-[#000000] to-[#ba0f0f] bg-clip-text text-transparent text-[26px]">
-        <li><a href="https://www.twitch.tv/forcgion" target="_blank">Twitch</a></li>
-        <li><a href="https://www.youtube.com/@Forcgion" target="_blank">YouTube</a></li>  
-        <li><a href="https://discord.gg/vZWDwAzef4" target="_blank">Discord</a></li>
-      </ul>
+    <header class="flex flex-row sticky top-0 h-[100px] justify-between items-center ml-[8vh] mr-[8vh] mb-[10vh]">
+      <nav>
+        <a href="https://github.com/Forcgion" target="_blank"><img src="img/LogosGithubIcon.png" alt="" class="h-[32px] w-[32px] "></a>
+      </nav>
+      <nav>
+        <a href=""><img src="img/IcBaselineLogOut.png" alt="Close" onclick="closeTab()" class="h-[32px] w-[32px] "></a>
+      </nav>
     </header>
+    <main>
+      <div>
+        <img src="img/channels4_profile.jpg" alt="" class="justify-center rounded-4xl">
+      </div>
+    </main>
+    <script>
+      function closeTab() {
+        window.close();
+      }
+    </script>
   </body>
 </html>
