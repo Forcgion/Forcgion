@@ -2,27 +2,37 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://unpkg.com/tailwindcss@1.9.6/dist/tailwind.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="stlye.css"stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>About Forcgion</title>
   </head>
   <body class="h-screen bg-[url('img/apex.png')] bg-cover bg-fixed bg-center bg-no-repeat">
-    <header class="flex flex-row sticky top-0 h-[100px] justify-between items-center ml-[8vh] mr-[8vh] mb-[10vh]">
+    <header class="flex flex-row sticky top-0 h-[70px] justify-between items-center px-6 sm:px-12 mb-8 sm:mb-16">
       <nav>
-        <a href="https://github.com/Forcgion" target="_blank"><img src="img/LogosGithubIcon.png" alt="" class="h-[32px] w-[32px]"></a>
+        <a href="https://github.com/Forcgion" target="_blank"><img src="img/LogosGithubIcon.png" alt="GitHub" class="h-8 w-8"></a>
       </nav>
       <nav>
-        <a href=""><img src="img/IcBaselineLogOut.png" alt="Close" onclick="closeTab()" class="h-[32px] w-[32px]"></a>
+        <a href=""><img src="img/IcBaselineLogOut.png" alt="Close" onclick="closeTab()" class="h-8 w-8"></a>
       </nav>
     </header>
-    <main>
-      <div class="flex items-center justify-center space-x-4 mt-[3vh]">
-        <a href="https://www.twitch.tv/forcgion" target="_blank"><img src="img/MdiTwitch.png" alt="" class="h-[32px] w-[32px]"></a>
-        <a href="https://www.youtube.com/@Forcgion" target="_blank"><img src="img/IcBaselineNotificationsActive.png" alt="" class="h-[32px] w-[32px]"></a>
-        <a href="https://www.tiktok.com/@forcgion" target="_blank"><img src="img/IcBaselineTiktok.png" alt="" class="h-[32px] w-[32px]"></a>
-        <a href="https://discord.gg/4ZGCHGPyhm" target="_blank"><img src="img/StreamlineDiscord.png" alt="" class="h-[32px] w-[32px]"></a>
-      </div>
+    <main class="px-4 sm:px-8 pb-12">
+      <section>
+        <div class="flex items-center justify-center space-x-4 mt-4 mb-8">
+          <a href="https://www.twitch.tv/forcgion" target="_blank"><img src="img/MdiTwitch.png" alt="" class="h-8 w-8"></a>
+          <a href="https://www.youtube.com/@Forcgion" target="_blank"><img src="img/IcBaselineNotificationsActive.png" alt="" class="h-8 w-8"></a>
+          <a href="https://www.tiktok.com/@forcgion" target="_blank"><img src="img/IcBaselineTiktok.png" alt="" class="h-8 w-8"></a>
+          <a href="https://discord.gg/4ZGCHGPyhm" target="_blank"><img src="img/StreamlineDiscord.png" alt="" class="h-8 w-8"></a>
+          <a href="https://steamcommunity.com/id/Forcgion/" target="_blank"><img src="img/CibSteam.png" alt="" class="h-8 w-8"></a>
+        </div>
+        <div class="flex flex-col sm:flex-row items-center gap-6 p-6 sm:p-8 bg-white/10 backdrop-blur-md border border-white/20 rounded-xl w-full max-w-2xl">
+          <img src="img/channels4_profile.jpg" alt="Forcgion" class="w-24 h-24 sm:w-28 sm:h-28 object-cover rounded-lg flex-shrink-0"/>
+          <div class="text-center sm:text-left">
+            <h1 class="text-2xl sm:text-3xl font-bold font-mono">Forcgion</h1>
+            <p class="text-black mt-2 font-mono text-sm sm:text-base">Chill Gamer who likes to play games and make content for his community. I am also tring to play with friends and viewers also so everyone can have fun!</p>
+          </div>
+        </div>
+      </section>
     </main>
     <script>
       function closeTab() {
